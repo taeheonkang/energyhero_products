@@ -1,0 +1,101 @@
+* {margin: 0; padding: 0;}
+ul {list-style: none;}
+a {text-decoration: none; color: black;}
+
+#top {height: 800px; background: url(../images/sub2_bg.png) no-repeat center top; background-size: cover;}
+.top_inner {width: 1320px; margin: 0 auto; box-sizing: border-box; position: relative;}
+.logo_top {width: 140px; height: 60px; position: absolute; top: 20px; left: 590px;}
+.nav {position: absolute; top: 105px; left: 50%; margin-left: -285px;}
+.nav>li {float: left;}
+.nav>li:nth-child(1) {margin-right: 95px;}
+.nav>li:nth-child(2) {margin-right: 95px;}
+.nav>li:nth-child(3) {margin-right: 95px;}
+.nav>li>a {display: block; font-size: 20px; font-family: 'Arial'; font-weight: bold; color: white;}
+.nav>li>a:hover {color: #aaa;}
+.login {position: absolute; top: 15px; right: 20px;}
+.login>li {float: left; margin-left: 20px;}
+.login>li>a {display: block; font-size: 16px; font-family: 'Arial'; color: white;}
+.login>li>a:hover {color: #aaa;}
+
+#banner {height: 300px; box-sizing: border-box; background: url(../images/banner.jpg) no-repeat -500px -50px; background-attachment: fixed; text-align: center;}
+#banner p {font-family: 'Arial'; font-weight: bold; font-size: 30px; color: white; padding-top: 145px;}
+
+#cont {height: 2000px; background: url(../images/sub2_contbg.png) top center no-repeat; background-size: cover;}
+.cont_inner {width: 1320px; margin: 0 auto; box-sizing: border-box; position: relative;}
+.cont_inner img:hover {scale: 110%; transition: all 1s;}
+.cont_inner div:hover {box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.6); z-index: 90;}
+.prod1 {width: 350px; height: 450px; box-sizing: border-box; position: absolute; top: 750px; right: 35px; overflow: hidden;}
+.prod2 {width: 350px; height: 450px; box-sizing: border-box; position: absolute; top: 650px; left: 35px; overflow: hidden;}
+.prod3 {width: 300px; height: 500px; box-sizing: border-box; position: absolute; top: 1350px; left: 385px; overflow: hidden;}
+.prod4 {width: 300px; height: 500px; box-sizing: border-box; position: absolute; top: 150px; right: 385px; overflow: hidden;}
+.prod5 {width: 250px; height: 400px; box-sizing: border-box; position: absolute; top: 1350px; right: 385px; overflow: hidden;}
+.prod6 {width: 250px; height: 400px; box-sizing: border-box; position: absolute; top: 1200px; right: 135px; overflow: hidden;}
+.prod7 {width: 300px; height: 400px; box-sizing: border-box; position: absolute; top: 1100px; left: 85px; overflow: hidden;}
+.prod8 {width: 300px; height: 400px; box-sizing: border-box; position: absolute; top: 350px; right: 85px; overflow: hidden;}
+.prod9 {width: 350px; height: 400px; box-sizing: border-box; position: absolute; top: 250px; left: 285px; overflow: hidden;}
+.prod10 {width: 550px; height: 700px; box-sizing: border-box; position: absolute; top: 650px; left: 385px; overflow: hidden;}
+
+#footer {height: 250px; background-color: black;}
+.footer_inner {width: 1320px; margin: 0 auto; box-sizing: border-box; position: relative;}
+.footer_text {font-family: '맑은고딕'; font-size: 13px; position: absolute; top: 30px; left: 0; color: white; line-height: 25px;}
+.footer_ul {position: absolute; top: 30px; right: 0px;}
+.footer_ul li {float: left;}
+.footer_ul li img {width: 50px; height: 50px;}
+.footer_ul li a {display: block; margin-left: 15px; opacity: 0.3;}
+.footer_ul li a:hover {opacity: 1.0;}
+.logo_footer {width: 140px; height: 60px; box-sizing: border-box; position: absolute; right: 0; top: 150px;}
+
+.gotop {width: 70px; height: 140px; box-sizing: border-box; position: fixed; bottom: 30px; right: 40px;}
+.gotop:hover {transform: rotate(20deg); transition: 0.3s ease-in;}
+
+.log_box {width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); position: fixed; top: 0; left: 0; display: none;}
+.log {width: 300px; height: 180px; box-sizing: border-box; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-family: 'Noto Sans KR'; font-size: 14px; background-color: white;}   
+.sign_box {width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); position: fixed; top: 0; left: 0; display: none;}
+.sign {width: 300px; height: 180px; box-sizing: border-box; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; font-family: 'Noto Sans KR'; font-size: 14px; background-color: white;}
+.id {width: 250px; margin-top: 15px; box-sizing: border-box; padding: 2px 5px;}
+.submit_btn {display: inline-block; margin: 15px 0 30px 0; padding: 3px 10px; background-color: #333; color: white;}
+.close {color: #333; text-decoration: underline; margin-left: 230px;}
+
+.popup1 {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.4); display: none;}
+.pbox1 {width: 500px; height: 300px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: rgb(247, 234, 255); box-sizing: border-box;}
+.name1 {font-family: 'Noto Sans KR'; font-size: 30px; color: rgb(20, 198, 41); margin-top: 20px; font-weight: bold;}
+.info {font-family: 'Noto Sans KR'; font-size: 20px; margin: 20px 0 0 0px;}
+.close1 {color: #333; text-decoration: underline; margin-left: 230px;}
+.close2 {color: #333; text-decoration: underline; position: absolute; top: 270px; right: 15px;}
+.popup_img {width: 100px; height: 100px; position: absolute; top: 170px; left: 200px;} 
+
+.popup2 {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.4); display: none; z-index: 99;}
+.pbox2 {width: 500px; height: 300px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: rgb(255, 255, 255); box-sizing: border-box;}
+.name2 {font-family: 'Noto Sans KR'; font-size: 30px; color: rgb(0, 203, 243); margin-top: 20px; font-weight: bold;}
+
+.popup3 {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.4); display: none; z-index: 99;}
+.pbox3 {width: 500px; height: 300px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: rgb(255, 254, 238); box-sizing: border-box;}
+.name3 {font-family: 'Noto Sans KR'; font-size: 30px; color: rgb(255, 51, 51); margin-top: 20px; font-weight: bold;}
+
+.popup4 {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.4); display: none; z-index: 99;}
+.pbox4 {width: 500px; height: 300px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: rgb(255, 240, 215); box-sizing: border-box;}
+.name4 {font-family: 'Noto Sans KR'; font-size: 30px; color: rgb(145, 211, 153); margin-top: 20px; font-weight: bold;}
+
+.popup5 {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.4); display: none; z-index: 99;}
+.pbox5 {width: 500px; height: 300px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: rgb(253, 243, 255); box-sizing: border-box;}
+.name5 {font-family: 'Noto Sans KR'; font-size: 30px; color: rgb(199, 121, 255); margin-top: 20px; font-weight: bold;}
+
+.popup6 {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.4); display: none; z-index: 99;}
+.pbox6 {width: 500px; height: 300px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: rgb(255, 241, 249); box-sizing: border-box;}
+.name6 {font-family: 'Noto Sans KR'; font-size: 30px; color: rgb(255, 112, 150); margin-top: 20px; font-weight: bold;}
+
+.popup7 {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.4); display: none; z-index: 99;}
+.pbox7 {width: 500px; height: 300px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: rgb(255, 235, 232); box-sizing: border-box;}
+.name7 {font-family: 'Noto Sans KR'; font-size: 30px; color: rgb(116, 156, 244); margin-top: 20px; font-weight: bold;}
+
+.popup8 {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.4); display: none; z-index: 99;}
+.pbox8 {width: 500px; height: 300px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: rgb(255, 233, 241); box-sizing: border-box;}
+.name8 {font-family: 'Noto Sans KR'; font-size: 30px; color: rgb(241, 88, 124); margin-top: 20px; font-weight: bold;}
+
+.popup9 {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.4); display: none; z-index: 99;}
+.pbox9 {width: 500px; height: 300px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: rgb(225, 255, 254); box-sizing: border-box;}
+.name9 {font-family: 'Noto Sans KR'; font-size: 30px; color: rgb(245, 134, 31); margin-top: 20px; font-weight: bold;}
+
+.popup10 {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.4); display: none; z-index: 99;}
+.pbox10 {width: 500px; height: 300px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: rgb(145, 145, 145); box-sizing: border-box;}
+.name10 {font-family: 'Noto Sans KR'; font-size: 30px; color: rgb(255, 244, 41); margin-top: 20px; font-weight: bold;}
